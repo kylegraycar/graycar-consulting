@@ -2,21 +2,22 @@
 layout: default
 ---
 
-<div class="home" style="background-color: antiquewhite;margin-bottom: 100px;">
-  <div style="background-color: aquamarine; height: 200px; width: 100%; border-top-right-radius: 200px;">
-
-  </div>
-  {%- if page.image -%}
-    <img src="{{ page.image }}" width="200" height="200" style="border-radius: 200px;
-    border: 5px solid antiquewhite;
-    margin-left: 25px;
-    margin-top: -150px;">
-  {%- endif -%}
+<div class="home">
   <div style="padding: 25px;">
+    {%- if page.image -%}
+    <img src="{{ page.image }}" width="150" height="150" style="border-radius: 200px;
+    border: 5px solid white;">
+    {%- endif -%}
     {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
+    {%- endif -%}
+    <p>Climate startup freelancing</p>
+    <a href="https://www.linkedin.com/in/kgraycar/">LinkedIn</a>
+    <br>
+    <a href="https://www.instagram.com/k___G______/">Instagram</a>
 
-  {{ content }}
+    <hr>
+    
+    {{ content }}
 
 </div>
