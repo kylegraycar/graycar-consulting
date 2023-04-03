@@ -5,19 +5,20 @@
 layout: home
 title: Kyle Graycar
 description: I make apps that address the climate crisis
-image: /img/kg.png
+image: /img/graycar-preview.png
+profile-image: /img/kg.png
 ---
 
 ## I make apps that address the climate crisis
 
-For the last 7 years I've led growth and product launch efforts at various Climate Tech organizations, including [Kiva][kiva], [Solar.com][solar.com], and [Decarbon][decarbon]. I'm a startup generalist, but I thrive in creating compelling user experiences, improving them with research/experimentation, and uncovering insights that inform strategy and accelerate growth. 
+For the last 7 years I've led growth and product launch efforts at various climate tech orgs, including [Kiva][kiva], [Solar.com][solar.com], and [Decarbon][decarbon]. I'm a startup generalist, but I thrive in creating compelling user experiences, improving them with research+experimentation, and uncovering insights that inform strategy and accelerate growth. 
 
 *I'm seeking freelance projects at early-stage organizations that are working to address the climate crisis.*
 
 What I can do:
-1. Build your first MVP software product
-2. Migrate your MVP into a cross-platform, scalable framework
-3. Translate your existing desktop product to a mobile app
+- Build your first MVP software product
+- Migrate your MVP into a cross-platform, scalable framework
+- Translate your existing desktop product to a mobile app
 
 ## Approach
 1. Refine the product & growth vision
@@ -81,7 +82,7 @@ I helped to establish Solar.com as a leading authority for going solar. I used k
 
 ___
 
-## Frequently Asked Questions
+## FAQs
 
 ### How do we work together?
 
@@ -93,7 +94,7 @@ I'll then track my work via Clockify and provide bi-weekly reports alongside my 
 
 ### How long will you work with us?
 
-As long as we're vibin'. I typically work on a retainership basis with my clients until my services are no longer required. I'd recommend we work together for at least a few months in order for us to move beyond the onboarding/orientation phase of a new project and into real value provided.
+As long as we're vibin'. I typically work on a retainership basis with my clients until it no longer makes sense to. I'd recommend we work together for at least a few months in order for us to move beyond the onboarding/orientation phase of a new project and into real value provided.
 
 ### How many hours per week will you work with us?
 
