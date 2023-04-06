@@ -48,6 +48,8 @@ ___
 
 I developed an iOS, Android & web app to production that automatically tracks a user's carbon emissions based on their purchases and provides personalized recommendations for taking climate action. Decarbon's grown from 0 to 5,000 users and has been [featured on ABC news][abc-feature]. 
 
+Decarbon is built with Flutter and Firebase, and uses Stripe, Patch Climate, Plaid, Sendgrid, and other services. 
+
 ___
 
 ### Launching the [TAINR][tainr] refill revolution
@@ -55,6 +57,11 @@ ___
 ![tainr](/img/TAINR.png)
 
 I developed a touchscreen ordering interface for the Los Angeles startup TAINR. This interface is embedded into TAINR's bulk-food displensing kiosks and utilizes ReactJS, Firebase, and Stripe. 
+
+>
+Kyle is like a Swiss Army knife for your company. Everything form marketing, website building, project management, MVP strategy and even coding, he has it all under his set of tools / skills. And the best part is that he gets it done in a productive and transparent manner -- Voicing challenges, and bringing additional resources when needed to get the job done! It is truly a pleasure to work with him and have him involved in different levels of whatever project you are working on. I strive to learn a bit everyday from him on his management methods and approach to tackling tasks. He's also a great team player and always brings the best attitude to every meeting.
+>
+-- Camilo Giraldo, Co-Founder & CEO
 
 ___
 
