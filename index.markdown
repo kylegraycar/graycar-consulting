@@ -1,20 +1,18 @@
 ---
 layout: home
 title: Kyle Graycar
-description: I make apps that address the climate crisis
+description: I build and launch apps that fight climate change
 image: /img/graycar-preview.png
 profile-image: /img/kg.png
 ---
 
-## I make apps that address the climate crisis
+## I build and launch apps that fight climate change
 
-For the last 7 years I've led growth and product launch efforts at various climate tech orgs, including [Kiva][kiva], [Solar.com][solar.com], and [Decarbon][decarbon]. I'm a startup generalist, but I thrive in creating compelling user experiences, improving them with research+experimentation, and uncovering insights that inform strategy and accelerate growth. 
+For the last 7 years I've led growth and product launch efforts at various climate tech orgs, including [Kiva][kiva]{:target="_blank"}, [Solar.com][solar.com]{:target="_blank"}, and [Decarbon][decarbon]{:target="_blank"}. I'm a startup generalist, but I thrive in creating compelling user experiences, improving them with research+experimentation, and uncovering insights that inform strategy and accelerate growth. 
 
-*I'm seeking freelance projects at early-stage organizations that are working to address the climate crisis.*
-
-What I can do:
+Some examples of what I can do are:
 - Build your first MVP software product
-- Migrate your MVP into a cross-platform, scalable framework
+- Evolve your MVP into a cross-platform, scalable framework
 - Translate your existing desktop product to a mobile app
 
 ## Approach
@@ -24,9 +22,9 @@ What I can do:
 4. Iterate, scale, repeat
 
 ## Skills
-Full-stack app development (flutter/firebase), product marketing, user research, AB testing
+Full-stack app development, product management, product marketing, user research, AB testing
 
-BS in Environmetal Science from UCLA
+Environmental Science degree from UCLA
 
 ## Rate
 $120/hr
@@ -34,7 +32,7 @@ $120/hr
 ## Contact
 kgraycar@gmail.com
 
-[Message me on LinkedIn][linkedin]
+[Message me on LinkedIn][linkedin]{:target="_blank"}
 
 5432 Geary Blvd, Unit #704, San Francisco, CA 94121
 
@@ -42,17 +40,17 @@ ___
 
 ## Portfolio
 
-### From 0 to 5,000 users with [Decarbon][decarbon]
+### From 0 to 5,000 users with [Decarbon][decarbon]{:target="_blank"}
 
 ![decarbon web app](/img/decarbon-desktop.png)
 
-I developed an iOS, Android & web app to production that automatically tracks a user's carbon emissions based on their purchases and provides personalized recommendations for taking climate action. Decarbon's grown from 0 to 5,000 users and has been [featured on ABC news][abc-feature]. 
+I developed an iOS, Android & web app to production that automatically tracks a user's carbon emissions based on their purchases and provides personalized recommendations for taking climate action. Decarbon's grown from 0 to 5,000 users and has been [featured on ABC news][abc-feature]{:target="_blank"}. 
 
 Decarbon is built with Flutter and Firebase, and uses Stripe, Patch Climate, Plaid, Sendgrid, and other services. 
 
 ___
 
-### Launching the [TAINR][tainr] refill revolution
+### Launching the [TAINR][tainr]{:target="_blank"} refill revolution
 
 ![tainr](/img/TAINR.png)
 
@@ -65,7 +63,7 @@ Kyle is like a Swiss Army knife for your company. Everything form marketing, web
 
 ___
 
-### Turbocharging [Kiva][kiva]'s product marketing loop
+### Turbocharging [Kiva][kiva]{:target="_blank"}'s product marketing loop
 
 ![kiva](/img/kiva.png)
 
@@ -98,7 +96,7 @@ I'll then track my work via Clockify and provide bi-weekly reports alongside my 
 
 ### How long will you work with us?
 
-As long as we're vibin'. I typically work on a retainership basis with my clients until it no longer makes sense to. I'd recommend we work together for at least a few months in order for us to move beyond the onboarding/orientation phase of a new project and into real value provided.
+As long as we're vibin'. I typically work on an ongoing, hourly basis with my clients until it no longer makes sense to. I'd recommend we work together for at least a few months in order for us to move beyond the onboarding/orientation phase of a new project and into real value provided.
 
 ### How many hours per week will you work with us?
 
@@ -106,7 +104,7 @@ I work 0-30 hours per week for each of my clients. This varies widely as the nee
 
 ### What if our project changes?
 
-I'm flexible! The nature of startups is change, and I can accomadate major strategy pivots. If it ever gets to a point where the scope of work has changed to a degree that warrants a discussion, I'll let you know.
+I'm flexible! The nature of startups is change, and I can accommodate major strategy pivots. If it ever gets to a point where the scope of work has changed to a degree that warrants a discussion, I'll let you know.
 
 ___
 
