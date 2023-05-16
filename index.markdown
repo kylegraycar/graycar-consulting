@@ -6,14 +6,18 @@ image: /img/graycar-preview.png
 profile-image: /img/kg.png
 ---
 
-## I build and launch apps that fight climate change
+## I build and launch climate change solutions
 
-For the last 7 years I've led growth and product launch efforts at various climate tech orgs, including [Kiva][kiva]{:target="_blank"}, [Solar.com][solar.com]{:target="_blank"}, and [Decarbon][decarbon]{:target="_blank"}. I'm a startup generalist, but I thrive in creating compelling user experiences, improving them with research+experimentation, and uncovering insights that inform strategy and accelerate growth. 
+For the last 7 years I've led growth and product launch efforts at various climate tech orgs, including [Kiva][kiva]{:target="_blank"}, [Solar.com][solar.com]{:target="_blank"}, and [Decarbon][decarbon]{:target="_blank"}. 
 
-Some examples of what I can do are:
-- Build your first MVP software product
+I'm a startup generalist, but I thrive in creating compelling user experiences, improving them with research+experimentation, and uncovering insights that accelerate growth. 
+
+## I'll help you
+- Develop your MVP software product
 - Evolve your MVP into a cross-platform, scalable framework
 - Translate your existing desktop product to a mobile app
+
+___
 
 ## Approach
 1. Refine the product & growth vision
@@ -22,19 +26,12 @@ Some examples of what I can do are:
 4. Iterate, scale, repeat
 
 ## Skills
-Full-stack app development, product management, product marketing, user research, AB testing
+App development, product management, product marketing, user research, AB testing
 
 Environmental Science degree from UCLA
 
 ## Rate
 $120/hr
-
-## Contact
-kgraycar@gmail.com
-
-[Message me on LinkedIn][linkedin]{:target="_blank"}
-
-5432 Geary Blvd, Unit #704, San Francisco, CA 94121
 
 ___
 
@@ -57,7 +54,11 @@ ___
 I developed a touchscreen ordering interface for the Los Angeles startup TAINR. This interface is embedded into TAINR's bulk-food displensing kiosks and utilizes ReactJS, Firebase, and Stripe. 
 
 >
-Kyle is like a Swiss Army knife for your company. Everything form marketing, website building, project management, MVP strategy and even coding, he has it all under his set of tools / skills. And the best part is that he gets it done in a productive and transparent manner -- Voicing challenges, and bringing additional resources when needed to get the job done! It is truly a pleasure to work with him and have him involved in different levels of whatever project you are working on. I strive to learn a bit everyday from him on his management methods and approach to tackling tasks. He's also a great team player and always brings the best attitude to every meeting.
+Kyle is like a Swiss Army knife for your company. Everything form marketing, website building, project management, MVP strategy and even coding, he has it all under his set of tools / skills. 
+>
+And the best part is that he gets it done in a productive and transparent manner -- Voicing challenges, and bringing additional resources when needed to get the job done! It is truly a pleasure to work with him and have him involved in different levels of whatever project you are working on. 
+>
+I strive to learn a bit everyday from him on his management methods and approach to tackling tasks. He's also a great team player and always brings the best attitude to every meeting.
 >
 -- Camilo Giraldo, Co-Founder & CEO
 
@@ -67,10 +68,14 @@ ___
 
 ![kiva](/img/kiva.png)
 
-I created the crowdlending platform Kiva's first product marketing process, bridging the communication gap between Product and Marketing departments. This accelerated the pace of experimentation and learning for both teams and led to more first time depositors and recurring lenders.
+I created the crowdlending platform Kiva's first product marketing process, bridging the gap between Product and Marketing departments. 
+
+This accelerated the pace of experimentation and learning for both teams and led to more product engagement.
 
 >
-Kyle was brought on to consult on some Product Marketing work at Kiva. Even though it was a brand new function, he dove right in, building trust and strong working rapport with his Product and channel marketing counterparts. In a relatively short amount of time, he was creating and running iterative tests to help inform our product build. Kyle is scrappy, hard-working, and adds valuable input to every discussion he's a part of. He's incredibly easy to work with and a joy to have on the team! 
+Kyle was brought on to consult on some Product Marketing work at Kiva. Even though it was a brand new function, he dove right in, building trust and strong working rapport with his Product and channel marketing counterparts. 
+>
+In a relatively short amount of time, he was creating and running iterative tests to help inform our product build. Kyle is scrappy, hard-working, and adds valuable input to every discussion he's a part of. He's incredibly easy to work with and a joy to have on the team! 
 >
 -- Tiffany Fong, Director of Growth Marketing
 
@@ -88,11 +93,11 @@ ___
 
 ### How do we work together?
 
-Click "schedule free consultation" at the bottom of this page and we can start with a short conversation about your project. 
+Click "let's chat" on the right and we can start with a short conversation about your project. 
 
 If we think we're a good fit, we can use my standard consulting agreement or work out an ageement that you prefer. 
 
-I'll then track my work via Clockify and provide bi-weekly reports alongside my invoices that breakdown tasks and time spent for that period.
+I'll then track my work via Clockify and provide bi-weekly reports alongside my invoices that breakdown tasks and time spent.
 
 ### How long will you work with us?
 
@@ -105,6 +110,13 @@ I work 0-30 hours per week for each of my clients. This varies widely as the nee
 ### What if our project changes?
 
 I'm flexible! The nature of startups is change, and I can accommodate major strategy pivots. If it ever gets to a point where the scope of work has changed to a degree that warrants a discussion, I'll let you know.
+
+___
+
+## Contact
+kgraycar@gmail.com
+
+[LinkedIn][linkedin]{:target="_blank"}
 
 ___
 
