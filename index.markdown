@@ -41,7 +41,7 @@ ___
 
 ![decarbon web app](/img/decarbon-desktop.png)
 
-I developed an iOS, Android & web app to production that automatically tracks a user's carbon emissions based on their purchases and provides personalized recommendations for taking climate action. Decarbon's grown from 0 to 5,000 users and has been [featured on ABC news][abc-feature]{:target="_blank"}. 
+I developed an iOS, Android & [web app][decarbon-web]{:target="_blank"} to production that automatically tracks a user's carbon emissions based on their purchases and provides personalized recommendations for taking climate action. Decarbon's grown from 0 to 5,000 users and has been [featured on ABC news][abc-feature]{:target="_blank"}. 
 
 Decarbon is built with Flutter and Firebase, and uses Stripe, Patch Climate, Plaid, Sendgrid, and other services. 
 
@@ -125,6 +125,7 @@ ___
 [kiva]: https://kiva.org
 [solar.com]: https://solar.com
 [decarbon]: https://decarbonapp.com
+[decarbon-web]: https://decarbonapp.com/web
 [abc-feature]: https://www.youtube.com/watch?v=0B0_0PgEJFc
 [tainr]: https://gotainr.com
 [linkedin]: https://www.linkedin.com/in/kgraycar/
