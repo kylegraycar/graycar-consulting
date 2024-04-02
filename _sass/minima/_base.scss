@@ -139,7 +139,6 @@ blockquote {
   border-left: 4px solid $brand-color;
   background-color: $brand-color-light;
   padding: calc($spacing-unit / 2);
-  @include relative-font-size(1);
 
   > :last-child {
     margin-bottom: 0;
