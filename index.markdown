@@ -1,37 +1,38 @@
 ---
 layout: home
 title: Kyle Graycar
-description: I build and launch apps that fight climate change
+description: Swiss army knife freelancer
 image: /img/graycar-preview.png
 profile-image: /img/kg.png
 ---
 
-## I build and launch climate change solutions
+## Hello world
 
-For the last 7 years I've led growth and product launch efforts at various climate tech orgs, including [Kiva][kiva]{:target="_blank"}, [Solar.com][solar.com]{:target="_blank"}, and [Decarbon][decarbon]{:target="_blank"}. 
+For the last 7 years I've led growth, software and product launch efforts at orgs ranging from 1 person startups to publicly traded companies, including [Kiva][kiva]{:target="_blank"}, [Solar.com][solar.com]{:target="_blank"}, [Decarbon][decarbon]{:target="_blank"}, [Chegg][chegg]{:target="_blank"}, and [Magoosh][magoosh]{:target="_blank"}.
 
-I'm a startup generalist, but I thrive in creating compelling user experiences, improving them with research+experimentation, and uncovering insights that accelerate growth. 
-
-## I'll help you
-- Develop your MVP software product
-- Evolve your MVP into a cross-platform, scalable framework
-- Translate your existing desktop product to a mobile app
+I'm a "zero to one" tech generalist, but I thrive in creating compelling user experiences, improving them with research+experimentation, and uncovering insights that accelerate growth. 
 
 ___
 
-## Approach
+## I'll help you
+- Develop your MVP and evolve it into a cross-platform, scalable experience
+- Launch effective go to market campaigns that support agile development
+- Maximize impact by honing your product's messaging and positioning
+
+___
+
+## My Approach
 1. Refine the product & growth vision
 2. Identify specific hypotheses
 3. Quantifiably test hypotheses
 4. Iterate, scale, repeat
 
+___
+
 ## Skills
-App development, product management, product marketing, user research, AB testing
+App development (Flutter, ReactJS, Firebase), GTM (go to market) launch strategy, product management, product marketing, user research, AB testing
 
-Environmental Science degree from UCLA
-
-## Rate
-$120/hr
+B.S. in Environmental Science from UCLA
 
 ___
 
@@ -113,19 +114,13 @@ I'm flexible! The nature of startups is change, and I can accommodate major stra
 
 ___
 
-## Contact
-kgraycar@gmail.com
-
-[LinkedIn][linkedin]{:target="_blank"}
-
-___
-
-© 2023 Kyle Graycar
+<small>© 2021-2024 Kyle Graycar</small>
 
 [kiva]: https://kiva.org
 [solar.com]: https://solar.com
 [decarbon]: https://decarbonapp.com
+[chegg]: https://www.chegg.com/skills/
+[magoosh]: https://magoosh.com
 [decarbon-web]: https://decarbonapp.com/web
 [abc-feature]: https://www.youtube.com/watch?v=0B0_0PgEJFc
 [tainr]: https://gotainr.com
-[linkedin]: https://www.linkedin.com/in/kgraycar/

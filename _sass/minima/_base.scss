@@ -26,6 +26,9 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  @include media-query($on-palm) {
+    font-size: calc($base-font-size * 0.75);
+  }
 }
 
 
@@ -94,9 +97,12 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-  font-weight: $base-font-weight;
+  font-weight: $bold-font-weight;
+  padding-top: calc($spacing-unit / 4);
 }
-
+small {
+  color: $grey-color;
+}
 
 
 /**
@@ -141,7 +147,7 @@ blockquote {
 }
 
 hr {
-  margin: 75px 0px 50px;
+  margin: calc($spacing-unit * 3) 0px calc($spacing-unit * 2);
   border: 0.5px solid $grey-color-light;
 }
 
@@ -181,15 +187,18 @@ pre {
   max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
   margin-right: auto;
   margin-left: auto;
-  padding-right: $spacing-unit;
-  padding-left: $spacing-unit;
+  padding-right: calc($spacing-unit / 2);
+  padding-left: calc($spacing-unit / 2);
   @extend %clearfix;
 
   @include media-query($on-laptop) {
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
     max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-    padding-right: calc($spacing-unit / 2);
-    padding-left: calc($spacing-unit / 2);
+  }
+
+  @include media-query($on-palm) {
+    padding-right: 0;
+    padding-left: 0;
   }
 }
 
@@ -262,10 +271,11 @@ table {
 
 .footer-cta {
   padding: 5px 20px;
-  border: 5px solid $blue-color-light;
+  border: 5px solid $blue-color-dark;
   display: inline-flex;
   border-radius: 150px;
   background-color: $blue-color-dark;
+  font-size:  calc($base-font-size * 0.75);
 }
 
 .site-footer {
