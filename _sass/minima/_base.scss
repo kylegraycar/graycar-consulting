@@ -139,7 +139,7 @@ blockquote {
   border-left: 4px solid $brand-color;
   background-color: $brand-color-light;
   padding: calc($spacing-unit / 2);
-  @include relative-font-size(1.125);
+  @include relative-font-size(1);
 
   > :last-child {
     margin-bottom: 0;
@@ -183,8 +183,8 @@ pre {
  * Wrapper
  */
 .wrapper {
-  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-  max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 5));
+  max-width:         calc(#{$content-width} - (#{$spacing-unit} * 5));
   margin-right: auto;
   margin-left: auto;
   padding-right: calc($spacing-unit / 2);

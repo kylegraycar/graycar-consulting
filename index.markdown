@@ -6,53 +6,61 @@ image: /img/graycar-preview.png
 profile-image: /img/kg.png
 ---
 
-## Hello world
+## Hello world 👋
 
-For the last 7 years I've led growth, software and product launch efforts at orgs ranging from 1 person startups to publicly traded companies, including [Kiva][kiva]{:target="_blank"}, [Solar.com][solar.com]{:target="_blank"}, [Decarbon][decarbon]{:target="_blank"}, [Chegg][chegg]{:target="_blank"}, and [Magoosh][magoosh]{:target="_blank"}.
+For the last 9 years I've launched products at software orgs ranging from 1-person startups to publicly traded companies, including [Kiva][kiva]{:target="_blank"}, [Solar.com][solar.com]{:target="_blank"}, [Decarbon][decarbon]{:target="_blank"}, [Chegg][chegg]{:target="_blank"}, and [Magoosh][magoosh]{:target="_blank"}.
 
-I'm a "zero to one" tech generalist, but I thrive in creating compelling user experiences, improving them with research+experimentation, and uncovering insights that accelerate growth. 
+I'm a "zero to one" tech generalist who thrives in creating compelling user experiences, improving them with experimentation, and uncovering insights that accelerate growth. 
 
 ___
 
-## I'll help you
+## I'll help you 💁
 - Develop your MVP and evolve it into a cross-platform, scalable experience
 - Launch effective go to market campaigns that support agile development
-- Maximize impact by honing your product's messaging and positioning
+- Maximize impact by honing your product's messaging and market positioning
 
 ___
 
-## My Approach
+## My approach 🤓
 1. Refine the product & growth vision
-2. Identify specific hypotheses
+2. Identify specific objectives & hypotheses
 3. Quantifiably test hypotheses
 4. Iterate, scale, repeat
 
 ___
 
-## Skills
-App development (Flutter, ReactJS, Firebase), GTM (go to market) launch strategy, product management, product marketing, user research, AB testing
+## Skills 🛠️
 
-B.S. in Environmental Science from UCLA
+### Marketing 
+Go to market launch strategy, product marketing, user engagement (email, push, in-app), conversion rate optimization (AB testing, pricing), search engine optimization, market research
+
+### Product 
+Product management, app development (Flutter, ReactJS, Firebase), user research
+
+### Sustainability
+UCLA Environmental Science BS, LEED Green Associate
 
 ___
 
-## Portfolio
+## Portfolio 💼
 
-### From 0 to 5,000 users with [Decarbon][decarbon]{:target="_blank"}
+### 0 to 5,000 users with Decarbon
 
 ![decarbon web app](/img/decarbon-desktop.png)
 
-I developed an iOS, Android & [web app][decarbon-web]{:target="_blank"} to production that automatically tracks a user's carbon emissions based on their purchases and provides personalized recommendations for taking climate action. Decarbon's grown from 0 to 5,000 users and has been [featured on ABC news][abc-feature]{:target="_blank"}. 
+I developed an iOS, Android & web app to production that automatically tracks a user's carbon emissions and provides personalized recommendations for taking climate action. [Decarbon][decarbon]{:target="_blank"}'s grown from 0 to 5,000 users and has been [featured on ABC news][abc-feature]{:target="_blank"}. 
 
 Decarbon is built with Flutter and Firebase, and uses Stripe, Patch Climate, Plaid, Sendgrid, and other services. 
 
 ___
 
-### Launching the [TAINR][tainr]{:target="_blank"} refill revolution
+### Software MVP and $200K raised to launch the refill revolution
 
 ![tainr](/img/TAINR.png)
 
-I developed a touchscreen ordering interface for the Los Angeles startup TAINR. This interface is embedded into TAINR's bulk-food displensing kiosks and utilizes ReactJS, Firebase, and Stripe. 
+I developed a touchscreen ordering interface for the Los Angeles startup [TAINR][tainr]{:target="_blank"}. This interface is embedded into bulk-food dispensing kiosks and utilizes ReactJS, Firebase, and Stripe. 
+
+I also helped the company raise over $200K via the crowdfunding platform Wefunder.
 
 >
 Kyle is like a Swiss Army knife for your company. Everything form marketing, website building, project management, MVP strategy and even coding, he has it all under his set of tools / skills. 
@@ -65,13 +73,11 @@ I strive to learn a bit everyday from him on his management methods and approach
 
 ___
 
-### Turbocharging [Kiva][kiva]{:target="_blank"}'s product marketing loop
+### Turbocharging Kiva's product marketing loop
 
 ![kiva](/img/kiva.png)
 
-I created the crowdlending platform Kiva's first product marketing process, bridging the gap between Product and Marketing departments. 
-
-This accelerated the pace of experimentation and learning for both teams and led to more product engagement.
+I created crowdlending non-profit [Kiva][kiva]{:target="_blank"}'s first product marketing process, bridging the gap between Product and Marketing departments. This accelerated the pace of experimentation and learning for both teams and led to more loans getting funded on the platform.
 
 >
 Kyle was brought on to consult on some Product Marketing work at Kiva. Even though it was a brand new function, he dove right in, building trust and strong working rapport with his Product and channel marketing counterparts. 
@@ -90,29 +96,31 @@ I helped to establish Solar.com as a leading authority for going solar. I used k
 
 ___
 
-## FAQs
+## FAQs 🧐
 
 ### How do we work together?
 
-Click "let's chat" on the right and we can start with a short conversation about your project. 
+[Let's start with a short conversation to get to know each other.][calendly]
 
-If we think we're a good fit, we can use my standard consulting agreement or work out an ageement that you prefer. 
+We can discuss the potential project and determine if my experience can support your team's objectives.
 
-I'll then track my work via Clockify and provide bi-weekly reports alongside my invoices that breakdown tasks and time spent.
+If we think we're a good fit to work together, we can use my standard consulting agreement or work out an ageement that you prefer. I'll then track my work and provide bi-weekly reports alongside my invoices.
 
 ### How long will you work with us?
 
-As long as we're vibin'. I typically work on an ongoing, hourly basis with my clients until it no longer makes sense to. I'd recommend we work together for at least a few months in order for us to move beyond the onboarding/orientation phase of a new project and into real value provided.
+As long as we're vibin'. I typically work on an ongoing, hourly basis with my clients until it no longer makes sense to. I'd recommend we work together for at least a few months in order for us to move beyond the exploration phase of a new project and into real value provided.
 
 ### How many hours per week will you work with us?
 
-I work 0-30 hours per week for each of my clients. This varies widely as the needs and timelines for startups can ramp up and down week to week. For this reason, I'll only work with a few clients at a time.
+I work 0-30 hours per week for each of my clients. This varies widely as the needs and timelines for startups and new products can fluctuate week to week.
 
 ### What if our project changes?
 
-I'm flexible! The nature of startups is change, and I can accommodate major strategy pivots. If it ever gets to a point where the scope of work has changed to a degree that warrants a discussion, I'll let you know.
+I'm flexible! Growth requires change, and I can accommodate major strategy pivots. If it ever gets to a point where the scope of work has changed to a degree that warrants a discussion, I'll let you know.
 
 ___
+
+Thanks for stopping by 🙏
 
 <small>© 2021-2024 Kyle Graycar</small>
 
@@ -121,6 +129,7 @@ ___
 [decarbon]: https://decarbonapp.com
 [chegg]: https://www.chegg.com/skills/
 [magoosh]: https://magoosh.com
-[decarbon-web]: https://decarbonapp.com/web
 [abc-feature]: https://www.youtube.com/watch?v=0B0_0PgEJFc
 [tainr]: https://gotainr.com
+[reforge]: https://www.reforge.com/courses/experimentation-testing-od/details
+[calendly]: https://calendly.com/kgraycar/30min
