@@ -136,8 +136,8 @@ a {
  * Blockquotes
  */
 blockquote {
-  border-left: 4px solid $brand-color;
-  background-color: $brand-color-light;
+  border-left: 4px solid $blue-color-dark;
+  background-color: $blue-color-light;
   padding: calc($spacing-unit / 2);
 
   > :last-child {

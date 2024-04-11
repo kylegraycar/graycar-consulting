@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Kyle Graycar
-description: Swiss army knife freelancer
+description: Go-to-Market Consultant
 image: /img/graycar-preview.png
 profile-image: /img/kg.png
 ---
@@ -54,6 +54,25 @@ Decarbon is built with Flutter and Firebase, and uses Stripe, Patch Climate, Pla
 
 ___
 
+### 1,100+ NPS promoters of grad school admissions support
+
+![magoosh graduate admissions support](/img/magoosh.png)
+
+After two years as Growth Marketing Manager at Berkeley-based ed tech company [Magoosh][magoosh]{:target="_blank"}, I rejoined the team as a freelance consultant to support the go-to-market of a brand new product that's adjacent to the company's core GRE and GMAT test prep offerings: online graduate admissions support. 
+
+As the sole marketing resource, I worked closely with the Admissions product managers to understand student needs, optimize purchases, develop new features, and ultimately acheive the NPS metrics the team had sought to scale their investment in this new product. 
+
+>
+"Kyle is both incredibly efficient and remarkably multidimensional in his talents. In his work for my team he tackled with speed and care projects across marketing, design, website and product development, and more while always producing stellar work. 
+>
+He is an active collaborator asking questions, raising concerns, and bringing new ideas to the table that helped spark success and creativity. I greatly appreciated the way Kyle worked within the fast pace of our growing products while always keeping an eye towards prioritization to cut through the noise. 
+>
+Kyle’s a delight to work with and an asset to any team; I’m looking forward to working with him in the future and would recommend him to anyone looking for a detail oriented, multifaceted, creative problem solver and thinker."
+>
+-- Jen Jurgens, Sr. Product Manager of Graduate Admissions
+
+___
+
 ### Software MVP and $200K raised to launch the refill revolution
 
 ![tainr](/img/TAINR.png)
@@ -63,11 +82,11 @@ I developed a touchscreen ordering interface for the Los Angeles startup [TAINR]
 I also helped the company raise over $200K via the crowdfunding platform Wefunder.
 
 >
-Kyle is like a Swiss Army knife for your company. Everything form marketing, website building, project management, MVP strategy and even coding, he has it all under his set of tools / skills. 
+"Kyle is like a Swiss Army knife for your company. Everything form marketing, website building, project management, MVP strategy and even coding, he has it all under his set of tools / skills. 
 >
 And the best part is that he gets it done in a productive and transparent manner -- Voicing challenges, and bringing additional resources when needed to get the job done! It is truly a pleasure to work with him and have him involved in different levels of whatever project you are working on. 
 >
-I strive to learn a bit everyday from him on his management methods and approach to tackling tasks. He's also a great team player and always brings the best attitude to every meeting.
+I strive to learn a bit everyday from him on his management methods and approach to tackling tasks. He's also a great team player and always brings the best attitude to every meeting."
 >
 -- Camilo Giraldo, Co-Founder & CEO
 
@@ -80,9 +99,9 @@ ___
 I created crowdlending non-profit [Kiva][kiva]{:target="_blank"}'s first product marketing process, bridging the gap between Product and Marketing departments. This accelerated the pace of experimentation and learning for both teams and led to more loans getting funded on the platform.
 
 >
-Kyle was brought on to consult on some Product Marketing work at Kiva. Even though it was a brand new function, he dove right in, building trust and strong working rapport with his Product and channel marketing counterparts. 
+"Kyle was brought on to consult on some Product Marketing work at Kiva. Even though it was a brand new function, he dove right in, building trust and strong working rapport with his Product and channel marketing counterparts. 
 >
-In a relatively short amount of time, he was creating and running iterative tests to help inform our product build. Kyle is scrappy, hard-working, and adds valuable input to every discussion he's a part of. He's incredibly easy to work with and a joy to have on the team! 
+In a relatively short amount of time, he was creating and running iterative tests to help inform our product build. Kyle is scrappy, hard-working, and adds valuable input to every discussion he's a part of. He's incredibly easy to work with and a joy to have on the team!"
 >
 -- Tiffany Fong, Director of Growth Marketing
 
@@ -131,5 +150,6 @@ Thanks for stopping by 🙏
 [magoosh]: https://magoosh.com
 [abc-feature]: https://www.youtube.com/watch?v=0B0_0PgEJFc
 [tainr]: https://gotainr.com
+[magoosh]: https://magoosh.com
 [reforge]: https://www.reforge.com/courses/experimentation-testing-od/details
 [calendly]: https://calendly.com/kgraycar/30min
