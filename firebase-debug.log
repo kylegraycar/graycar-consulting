@@ -1,0 +1,46 @@
+[debug] [2024-04-27T00:07:59.800Z] ----------------------------------------------------------------------
+[debug] [2024-04-27T00:07:59.801Z] Command:       /Users/kylegraycar/.nvm/versions/node/v16.19.0/bin/node /Users/kylegraycar/.nvm/versions/node/v16.19.0/bin/firebase deploy --only hosting
+[debug] [2024-04-27T00:07:59.801Z] CLI Version:   11.25.2
+[debug] [2024-04-27T00:07:59.801Z] Platform:      darwin
+[debug] [2024-04-27T00:07:59.801Z] Node Version:  v16.19.0
+[debug] [2024-04-27T00:07:59.807Z] Time:          Fri Apr 26 2024 17:07:59 GMT-0700 (Pacific Daylight Time)
+[debug] [2024-04-27T00:07:59.807Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-04-27T00:07:59.836Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-04-27T00:07:59.836Z] > authorizing via signed-in user (kgraycar@gmail.com)
+[debug] [2024-04-27T00:07:59.836Z] [iam] checking project kyle-graycar-consulting for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-04-27T00:07:59.838Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/kyle-graycar-consulting:testIamPermissions [none]
+[debug] [2024-04-27T00:07:59.838Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/kyle-graycar-consulting:testIamPermissions x-goog-quota-user=projects/kyle-graycar-consulting
+[debug] [2024-04-27T00:07:59.838Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/kyle-graycar-consulting:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-04-27T00:08:00.119Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/kyle-graycar-consulting:testIamPermissions 200
+[debug] [2024-04-27T00:08:00.120Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/kyle-graycar-consulting:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-04-27T00:08:00.121Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/kyle-graycar-consulting [none]
+[debug] [2024-04-27T00:08:00.545Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/kyle-graycar-consulting 200
+[debug] [2024-04-27T00:08:00.546Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/kyle-graycar-consulting {"projectId":"kyle-graycar-consulting","projectNumber":"1032764720022","displayName":"kyle-graycar-consulting","name":"projects/kyle-graycar-consulting","resources":{"hostingSite":"kyle-graycar-consulting"},"state":"ACTIVE","etag":"1_61a9b583-c007-4b07-899a-ae976975dab1"}
+[info] 
+[info] === Deploying to 'kyle-graycar-consulting'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2024-04-27T00:08:00.550Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/kyle-graycar-consulting/versions [none]
+[debug] [2024-04-27T00:08:00.550Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/kyle-graycar-consulting/versions {"status":"CREATED","labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2024-04-27T00:08:01.569Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/kyle-graycar-consulting/versions 200
+[debug] [2024-04-27T00:08:01.570Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/kyle-graycar-consulting/versions {"name":"projects/1032764720022/sites/kyle-graycar-consulting/versions/a2d6db132c397829","status":"CREATED","config":{},"labels":{"deployment-tool":"cli-firebase"}}
+[info] i  hosting[kyle-graycar-consulting]: beginning deploy... 
+[info] i  hosting[kyle-graycar-consulting]: found 15 files in _site 
+[debug] [2024-04-27T00:08:01.582Z] [hosting] uploading with 200 concurrency
+[debug] [2024-04-27T00:08:01.593Z] [hosting] hash cache [X3NpdGU] stored for 15 files
+[debug] [2024-04-27T00:08:01.593Z] [hosting][hash queue][FINAL] {"max":6,"min":0,"avg":1.8666666666666667,"active":0,"complete":15,"success":15,"errored":0,"retried":0,"total":15,"elapsed":8}
+[debug] [2024-04-27T00:08:01.593Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/1032764720022/sites/kyle-graycar-consulting/versions/a2d6db132c397829:populateFiles [none]
+[debug] [2024-04-27T00:08:01.593Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/1032764720022/sites/kyle-graycar-consulting/versions/a2d6db132c397829:populateFiles {"files":{"/favicon.ico":"cd380fb707d6d8f518a7c2aa27e6b3009f361a08d89d52e113ecd3eb3ade73a7","/assets/minima-social-icons.svg":"a83766902027eacc6d458c62539d4ff6a146d3a3542052036a4d452f64335020","/img/TAINR.png":"5a52c49c5743bb7e099035fac3908b28d3b4ba6188fffc7a2fbf1e57313fde81","/img/decarbon-desktop.png":"ebec163879304793daf174b37d2af62f588f1a531881c3b10d8cb9fb303b7304","/img/graycar-preview.png":"4e79b9ab085aa65752187b2f3d48889faf1f968c74bc54c3dd603a8f45520f63","/img/kg.png":"2f19a9a374318d850add0eef8df0391826932e473112e41e45e16520fdea3250","/img/kiva.png":"990202888d33b4b74939872a3610993983e755281d34348fda97444fcead7f1b","/img/magoosh.png":"e415c1adcfbe52d0afdd624b4f8a95a7d78958f6c51f7a25ae67eea2ceab0065","/img/solar.com.png":"daadd57643d4918c4b3c0ef05349dff0161cce31edadd2d0a39ff0eea8bbb6c8","/about/index.html":"15d6d2e6b974197b4e596363f1859cdee81b85d27f96fc3950c056dc29290158","/404.html":"d6a39ac82e16b60cd59434491bb8381191e79f1c2af0b0c5b26868d07a32c4bd","/feed.xml":"8e726bb522c68e3c950f3574ee6a5b6cd5adc6550ed356049ab11cd45b41d22e","/assets/main.css":"ae3a3df388612959429688ae92e9fc6d563bfec8e4d5e16ca76e920bad3f6874","/index.html":"6f38d9c0d624386a263a25f416d78cf8c7b2b2b0a965e7c171474e64d9d79ba5","/assets/main.css.map":"5f410192e8241026316ce653da52b425d10eedb6d950d6daed0db8f427659f02"}}
+[debug] [2024-04-27T00:08:02.291Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/1032764720022/sites/kyle-graycar-consulting/versions/a2d6db132c397829:populateFiles 200
+[debug] [2024-04-27T00:08:02.292Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/1032764720022/sites/kyle-graycar-consulting/versions/a2d6db132c397829:populateFiles {"uploadRequiredHashes":["d6a39ac82e16b60cd59434491bb8381191e79f1c2af0b0c5b26868d07a32c4bd","8e726bb522c68e3c950f3574ee6a5b6cd5adc6550ed356049ab11cd45b41d22e","15d6d2e6b974197b4e596363f1859cdee81b85d27f96fc3950c056dc29290158","6f38d9c0d624386a263a25f416d78cf8c7b2b2b0a965e7c171474e64d9d79ba5"],"uploadUrl":"https://upload-firebasehosting.googleapis.com/upload/sites/kyle-graycar-consulting/versions/a2d6db132c397829/files"}
+[debug] [2024-04-27T00:08:02.294Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/kyle-graycar-consulting/versions/a2d6db132c397829/files/d6a39ac82e16b60cd59434491bb8381191e79f1c2af0b0c5b26868d07a32c4bd [none]
+[debug] [2024-04-27T00:08:02.294Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/kyle-graycar-consulting/versions/a2d6db132c397829/files/d6a39ac82e16b60cd59434491bb8381191e79f1c2af0b0c5b26868d07a32c4bd [stream]
+[debug] [2024-04-27T00:08:02.295Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/kyle-graycar-consulting/versions/a2d6db132c397829/files/8e726bb522c68e3c950f3574ee6a5b6cd5adc6550ed356049ab11cd45b41d22e [none]
+[debug] [2024-04-27T00:08:02.295Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/kyle-graycar-consulting/versions/a2d6db132c397829/files/8e726bb522c68e3c950f3574ee6a5b6cd5adc6550ed356049ab11cd45b41d22e [stream]
+[debug] [2024-04-27T00:08:02.297Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/kyle-graycar-consulting/versions/a2d6db132c397829/files/15d6d2e6b974197b4e596363f1859cdee81b85d27f96fc3950c056dc29290158 [none]
+[debug] [2024-04-27T00:08:02.297Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/kyle-graycar-consulting/versions/a2d6db132c397829/files/15d6d2e6b974197b4e596363f1859cdee81b85d27f96fc3950c056dc29290158 [stream]
+[debug] [2024-04-27T00:08:02.298Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/kyle-graycar-consulting/versions/a2d6db132c397829/files/6f38d9c0d624386a263a25f416d78cf8c7b2b2b0a965e7c171474e64d9d79ba5 [none]
+[debug] [2024-04-27T00:08:02.298Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/kyle-graycar-consulting/versions/a2d6db132c397829/files/6f38d9c0d624386a263a25f416d78cf8c7b2b2b0a965e7c171474e64d9d79ba5 [stream]
+[debug] [2024-04-27T00:08:02.299Z] [hosting][populate queue][FINAL] {"max":701,"min":701,"avg":701,"active":0,"complete":1,"success":1,"errored":0,"retried":0,"total":1,"elapsed":707}
+[debug] [2024-04-27T00:08:02.299Z] [hosting] uploads queued: 4

@@ -16,8 +16,8 @@ ___
 
 ## I'll help you 💁
 - Develop your MVP and evolve it into a cross-platform, scalable experience
-- Launch effective go to market campaigns that support agile development
-- Maximize impact by honing your product's messaging and market positioning
+- Launch effective go-to-market campaigns that support agile development
+- Optimize your product's messaging and market positioning via experimentation
 
 ___
 
