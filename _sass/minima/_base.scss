@@ -269,7 +269,7 @@ table {
 }
 
 .footer-cta {
-  padding: 5px 20px;
+  padding: 10px 25px;
   border: 5px solid $blue-color-dark;
   display: inline-flex;
   border-radius: 150px;
@@ -278,12 +278,11 @@ table {
 }
 
 .site-footer {
-  border: none !important;
   position: fixed;
   bottom: 0px;
   background: transparent;
   right: 0px;
   text-align: end;
-  padding: 15px !important;
+  padding: 25px !important;
   width: 100%;
 }

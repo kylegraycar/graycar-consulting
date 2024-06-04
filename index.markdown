@@ -32,7 +32,7 @@ ___
 ## Skills 🛠️
 
 ### Marketing 
-Go to market launch strategy, product marketing, user engagement (email, push, in-app), conversion rate optimization (AB testing, pricing), search engine optimization, market research
+Go to market launch strategy, product marketing, user engagement (email, push, in-app), conversion rate optimization (AB testing, pricing), search engine optimization, market research, crowdfunding
 
 ### Product 
 Product management, app development (Flutter, ReactJS, Firebase), user research
@@ -51,6 +51,21 @@ ___
 I developed an iOS, Android & web app to production that automatically tracks a user's carbon emissions and provides personalized recommendations for taking climate action. [Decarbon][decarbon]{:target="_blank"}'s grown from 0 to 5,000 users and has been [featured on ABC news][abc-feature]{:target="_blank"}. 
 
 Decarbon is built with Flutter and Firebase, and uses Stripe, Patch Climate, Plaid, Sendgrid, and other services. 
+
+___
+
+### Launching new career products with Chegg
+
+![decarbon web app](/img/chegg-skills.png)
+
+I led the go-to-market strategy and execution for two new learning programs at Chegg Skills: a career services platform for recent college grads and a technical bootcamp for professionals transitioning into the cybersecurity field. 
+
+Both products were projected to be a $2M+ ARR opportunity for the business in their first year post-launch. 
+
+>
+"Kyle has as been a huge asset to our team, bringing outstanding expertise in product marketing and a results-driven approach to every project. His market insights, combined with his ability to effectively communicate our product's value to the market while taking a strategic approach allowed us to move quickly through the GTM of two new programs at Chegg Skills.
+>
+-- Breana McDaniel, Sr. Manager of Growth
 
 ___
 
