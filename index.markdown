@@ -22,9 +22,9 @@ ___
 ___
 
 ## My approach 🤓
-1. Refine the product & growth vision
-2. Identify specific objectives & hypotheses
-3. Quantifiably test hypotheses
+1. Refine the vision
+2. Define specific objectives
+3. Quantifiably test 
 4. Iterate, scale, repeat
 
 ___
