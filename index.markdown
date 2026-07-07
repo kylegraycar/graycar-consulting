@@ -8,14 +8,13 @@ profile-image: /img/kg.png
 
 ## Hello world 👋
 
-For the last 9 years I've launched products at software orgs ranging from 1-person startups to publicly traded companies, including [Kiva](https://kiva.org){:target="_blank"}, [Solar.com](https://solar.com){:target="_blank"}, [Decarbon](https://decarbonapp.com){:target="_blank"}, [Chegg](https://www.chegg.com/skills/){:target="_blank"}, and [Magoosh](https://magoosh.com){:target="_blank"}.
+For the last 9 years I've launched products at software orgs ranging from 1-person startups to publicly traded companies, including [Kiva][kiva]{:target="_blank"}, [Solar.com][solar.com]{:target="_blank"}, [Decarbon][decarbon]{:target="_blank"}, [Chegg][chegg]{:target="_blank"}, and [Magoosh][magoosh]{:target="_blank"}.
 
-I'm a "zero to one" product marketer who thrives in creating compelling user experiences, improving them with experimentation, and uncovering insights that accelerate growth.
+I'm a "zero to one" product marketer who thrives in creating compelling user experiences, improving them with experimentation, and uncovering insights that accelerate growth. 
 
 ___
 
 ## I'll help you 💁
-
 - **Develop** your MVP and evolve it into a cross-platform, scalable experience
 - **Launch** effective go-to-market campaigns that support agile development
 - **Optimize** your product's messaging and market positioning via experimentation
@@ -23,15 +22,14 @@ ___
 ___
 
 ## My approach 📋
-
 1. Refine the vision
 2. Define specific objectives
-3. Quantifiably test
+3. Quantifiably test 
 4. Iterate, scale, repeat
 
 ___
 
-## Skills 🤓
+## Skills 🤓 
 
 **Marketing:** Product marketing, go-to-market strategy, user lifecycle engagement (email, push, in-app), conversion rate optimization (AB testing, pricing), search engine optimization, market research, crowdfunding
 
@@ -41,13 +39,13 @@ ___
 
 ___
 
-## Tools 🛠️
+## Tools 🛠️ 
 
 **Marketing:** Braze, HubSpot, Intercom, Google Analytics, SEMrush, VWO, Optimizely, Typeform, Wordpress, Umso, Jekyll, HTML/CSS/JS, Wefunder
 
-**Product:** Figma, Flutter, React, Firebase, Typescript
+**Product:** Figma, Flutter, React, Firebase, Typescript 
 
-**Planning:** Asana, Google Suite, Slack, Tableau
+**Planning:** Asana, Google Suite, Slack, Tableau  
 
 ___
 
@@ -57,9 +55,9 @@ ___
 
 ![decarbon web app](/img/decarbon-desktop.png)
 
-I developed an iOS, Android & web app to production that automatically tracks a user's carbon emissions and provides personalized recommendations for taking climate action. [Decarbon](https://decarbonapp.com){:target="_blank"}'s grown from 0 to 5,000 users and has been [featured on ABC news](https://www.youtube.com/watch?v=0B0_0PgEJFc){:target="_blank"}.
+I developed an iOS, Android & web app to production that automatically tracks a user's carbon emissions and provides personalized recommendations for taking climate action. [Decarbon][decarbon]{:target="_blank"}'s grown from 0 to 5,000 users and has been [featured on ABC news][abc-feature]{:target="_blank"}. 
 
-Decarbon is built with Flutter and Firebase, and uses Stripe, Patch Climate, Plaid, Sendgrid, and other services.
+Decarbon is built with Flutter and Firebase, and uses Stripe, Patch Climate, Plaid, Sendgrid, and other services. 
 
 ___
 
@@ -67,13 +65,14 @@ ___
 
 ![decarbon web app](/img/chegg-skills.png)
 
-I led the go-to-market strategy and execution for two new learning programs at Chegg Skills: a career services platform for recent college grads and a technical bootcamp for professionals transitioning into the cybersecurity field.
+I led the go-to-market strategy and execution for two new learning programs at Chegg Skills: a career services platform for recent college grads and a technical bootcamp for professionals transitioning into the cybersecurity field. 
 
-Both products were projected to be a $2M+ ARR opportunity for the business in their first year post-launch.
+Both products were projected to be a $2M+ ARR opportunity for the business in their first year post-launch. 
 
-> "Kyle has as been a huge asset to our team, bringing outstanding expertise in product marketing and a results-driven approach to every project. His market insights, combined with his ability to effectively communicate our product's value to the market while taking a strategic approach allowed us to move quickly through the GTM of two new programs at Chegg Skills.
 >
-> – [Breana McDaniel](https://www.linkedin.com/in/breana-mcdaniel-b13766123/){:target="_blank"}, Sr. Manager of Growth
+"Kyle has as been a huge asset to our team, bringing outstanding expertise in product marketing and a results-driven approach to every project. His market insights, combined with his ability to effectively communicate our product's value to the market while taking a strategic approach allowed us to move quickly through the GTM of two new programs at Chegg Skills.
+>
+-- [Breana McDaniel][Bre]{:target="_blank"}, Sr. Manager of Growth
 
 ___
 
@@ -81,17 +80,18 @@ ___
 
 ![magoosh graduate admissions support](/img/magoosh.png)
 
-After two years as a full-time Product Marketing Manager at Berkeley-based ed tech company [Magoosh](https://magoosh.com){:target="_blank"}, I rejoined the team as a freelance consultant to support the go-to-market of a brand new product that's adjacent to the company's core GRE and GMAT test prep offerings: online graduate admissions support.
+After two years as a full-time Product Marketing Manager at Berkeley-based ed tech company [Magoosh][magoosh]{:target="_blank"}, I rejoined the team as a freelance consultant to support the go-to-market of a brand new product that's adjacent to the company's core GRE and GMAT test prep offerings: online graduate admissions support. 
 
-As the sole marketing resource, I worked closely with the Admissions product managers to understand student needs, optimize purchases, develop new features, and ultimately acheive the NPS metrics the team had sought to scale their investment in this new product.
+As the sole marketing resource, I worked closely with the Admissions product managers to understand student needs, optimize purchases, develop new features, and ultimately acheive the NPS metrics the team had sought to scale their investment in this new product. 
 
-> "Kyle is both incredibly efficient and remarkably multidimensional in his talents. In his work for my team he tackled with speed and care projects across marketing, design, website and product development, and more while always producing stellar work.
 >
-> He is an active collaborator asking questions, raising concerns, and bringing new ideas to the table that helped spark success and creativity. I greatly appreciated the way Kyle worked within the fast pace of our growing products while always keeping an eye towards prioritization to cut through the noise.
+"Kyle is both incredibly efficient and remarkably multidimensional in his talents. In his work for my team he tackled with speed and care projects across marketing, design, website and product development, and more while always producing stellar work. 
 >
-> Kyle's a delight to work with and an asset to any team; I'm looking forward to working with him in the future and would recommend him to anyone looking for a detail oriented, multifaceted, creative problem solver and thinker."
+He is an active collaborator asking questions, raising concerns, and bringing new ideas to the table that helped spark success and creativity. I greatly appreciated the way Kyle worked within the fast pace of our growing products while always keeping an eye towards prioritization to cut through the noise. 
 >
-> – [Jen Jurgens](https://www.linkedin.com/in/jen-jurgens/){:target="_blank"}, Sr. Product Manager of Graduate Admissions
+Kyle’s a delight to work with and an asset to any team; I’m looking forward to working with him in the future and would recommend him to anyone looking for a detail oriented, multifaceted, creative problem solver and thinker."
+>
+-- [Jen Jurgens][Jen]{:target="_blank"}, Sr. Product Manager of Graduate Admissions
 
 ___
 
@@ -99,17 +99,18 @@ ___
 
 ![tainr](/img/TAINR.png)
 
-I developed a touchscreen ordering interface for the Los Angeles startup [TAINR](https://gotainr.com){:target="_blank"}. This interface is embedded into bulk-food dispensing kiosks and utilizes ReactJS, Firebase, and Stripe.
+I developed a touchscreen ordering interface for the Los Angeles startup [TAINR][tainr]{:target="_blank"}. This interface is embedded into bulk-food dispensing kiosks and utilizes ReactJS, Firebase, and Stripe. 
 
 I also helped the company raise over $200K via the crowdfunding platform Wefunder.
 
-> "Kyle is like a Swiss Army knife for your company. Everything form marketing, website building, project management, MVP strategy and even coding, he has it all under his set of tools / skills.
 >
-> And the best part is that he gets it done in a productive and transparent manner – Voicing challenges, and bringing additional resources when needed to get the job done! It is truly a pleasure to work with him and have him involved in different levels of whatever project you are working on.
+"Kyle is like a Swiss Army knife for your company. Everything form marketing, website building, project management, MVP strategy and even coding, he has it all under his set of tools / skills. 
 >
-> I strive to learn a bit everyday from him on his management methods and approach to tackling tasks. He's also a great team player and always brings the best attitude to every meeting."
+And the best part is that he gets it done in a productive and transparent manner -- Voicing challenges, and bringing additional resources when needed to get the job done! It is truly a pleasure to work with him and have him involved in different levels of whatever project you are working on. 
 >
-> – [Camilo Giraldo](https://www.linkedin.com/in/camilo-giraldo-132285a7/){:target="_blank"}, Co-Founder & CEO
+I strive to learn a bit everyday from him on his management methods and approach to tackling tasks. He's also a great team player and always brings the best attitude to every meeting."
+>
+-- [Camilo Giraldo][Camilo]{:target="_blank"}, Co-Founder & CEO
 
 ___
 
@@ -117,13 +118,14 @@ ___
 
 ![kiva](/img/kiva.png)
 
-I created crowdlending non-profit [Kiva](https://kiva.org){:target="_blank"}'s first product marketing process, bridging the gap between Product and Marketing departments. This accelerated the pace of experimentation and learning for both teams and led to more loans getting funded on the platform.
+I created crowdlending non-profit [Kiva][kiva]{:target="_blank"}'s first product marketing process, bridging the gap between Product and Marketing departments. This accelerated the pace of experimentation and learning for both teams and led to more loans getting funded on the platform.
 
-> "Kyle was brought on to consult on some Product Marketing work at Kiva. Even though it was a brand new function, he dove right in, building trust and strong working rapport with his Product and channel marketing counterparts.
 >
-> In a relatively short amount of time, he was creating and running iterative tests to help inform our product build. Kyle is scrappy, hard-working, and adds valuable input to every discussion he's a part of. He's incredibly easy to work with and a joy to have on the team!"
+"Kyle was brought on to consult on some Product Marketing work at Kiva. Even though it was a brand new function, he dove right in, building trust and strong working rapport with his Product and channel marketing counterparts. 
 >
-> – [Tiffany Fong](https://www.linkedin.com/in/creatiff/){:target="_blank"}, Director of Growth Marketing
+In a relatively short amount of time, he was creating and running iterative tests to help inform our product build. Kyle is scrappy, hard-working, and adds valuable input to every discussion he's a part of. He's incredibly easy to work with and a joy to have on the team!"
+>
+-- [Tiffany Fong][Tiffany]{:target="_blank"}, Director of Growth Marketing
 
 ___
 
@@ -139,7 +141,7 @@ ___
 
 ### How do we work together?
 
-[Let's start with a short conversation to get to know each other.](https://calendly.com/kgraycar/30min)
+[Let's start with a short conversation to get to know each other.][calendly]
 
 We can discuss the potential project and determine if my experience can support your team's objectives.
 
@@ -162,3 +164,18 @@ ___
 Thanks for stopping by 🙏
 
 <small>© 2021-2024 Kyle Graycar</small>
+
+[kiva]: https://kiva.org
+[solar.com]: https://solar.com
+[decarbon]: https://decarbonapp.com
+[chegg]: https://www.chegg.com/skills/
+[magoosh]: https://magoosh.com
+[abc-feature]: https://www.youtube.com/watch?v=0B0_0PgEJFc
+[tainr]: https://gotainr.com
+[magoosh]: https://magoosh.com
+[reforge]: https://www.reforge.com/courses/experimentation-testing-od/details
+[calendly]: https://calendly.com/kgraycar/30min
+[Bre]: https://www.linkedin.com/in/breana-mcdaniel-b13766123/
+[Jen]: https://www.linkedin.com/in/jen-jurgens/ 
+[Camilo]: https://www.linkedin.com/in/camilo-giraldo-132285a7/ 
+[Tiffany]: https://www.linkedin.com/in/creatiff/ 

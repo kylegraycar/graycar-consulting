@@ -3,12 +3,13 @@
 // Define defaults for each variable.
 
 $base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
-$base-font-size:   16px !default;
+$base-font-size:   28px !default;
 $base-font-weight: 400 !default;
+$bold-font-weight: 500 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
 
-$spacing-unit:     30px !default;
+$spacing-unit:     60px !default;
 
 $text-color:       #333 !default;
 $background-color: white !default;
@@ -21,24 +22,17 @@ $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
 
 $blue-color: #385898 !default;
-$blue-color-light: lighten($blue-color, 40%) !default;
+$blue-color-light: lighten($blue-color, 56%) !default;
 $blue-color-dark: darken($blue-color, 25%) !default;
 
 $table-text-align: left !default;
 
 // Width of the content area
-$content-width:    800px !default;
+$content-width:    1200px !default;
 
 $on-palm:          600px !default;
-$on-laptop:        800px !default;
+$on-laptop:        700px !default;
 
-// Use media queries like this:
-// @include media-query($on-palm) {
-//   .wrapper {
-//     padding-right: $spacing-unit;
-//     padding-left: $spacing-unit;
-//   }
-// }
 @mixin media-query($device) {
   @media screen and (max-width: $device) {
     @content;
