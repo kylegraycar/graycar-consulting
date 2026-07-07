@@ -163,7 +163,7 @@ ___
 
 Thanks for stopping by 🙏
 
-<small>© 2021-2024 Kyle Graycar</small>
+<small>© 2021-2026 Kyle Graycar</small>
 
 [kiva]: https://kiva.org
 [solar.com]: https://solar.com
@@ -174,7 +174,7 @@ Thanks for stopping by 🙏
 [tainr]: https://gotainr.com
 [magoosh]: https://magoosh.com
 [reforge]: https://www.reforge.com/courses/experimentation-testing-od/details
-[calendly]: https://calendly.com/kgraycar/30min
+[calendly]: https://www.linkedin.com/in/kgraycar/
 [Bre]: https://www.linkedin.com/in/breana-mcdaniel-b13766123/
 [Jen]: https://www.linkedin.com/in/jen-jurgens/ 
 [Camilo]: https://www.linkedin.com/in/camilo-giraldo-132285a7/ 
