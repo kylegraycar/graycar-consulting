@@ -1,0 +1,456 @@
+---
+permalink: /counsel/
+layout: null
+---
+{% raw %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Kyle Graycar → Counsel</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Instrument+Sans:wght@400;500;600;700&family=Geist+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f6f4ed;
+    --surface: #fffefc;
+    --border: #dedbd4;
+    --text: #1c1304;
+    --text-dim: #726c61;
+    --text-dimmer: #9d998f;
+    --blue: #243866;
+    --blue-bright: #33508c;
+    --lime: #8fb800;
+    --lime-bg: #eef3d2;
+    --maxw: 780px;
+  }
+
+  * { box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Instrument Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  section {
+    max-width: var(--maxw);
+    margin: 0 auto;
+    padding: 96px 24px;
+  }
+
+  h1, h2, h3 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    margin: 0;
+    color: var(--text);
+  }
+
+  h1 {
+    font-size: clamp(2.2rem, 5vw, 3.4rem);
+    line-height: 1.15;
+    font-weight: 400;
+  }
+
+  h2 {
+    font-size: clamp(1.6rem, 3.5vw, 2.1rem);
+    font-weight: 400;
+    margin-bottom: 40px;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text);
+  }
+
+  p {
+    color: var(--text-dim);
+    margin: 0;
+  }
+
+  a { color: inherit; }
+
+  /* HERO */
+  .hero {
+    padding-top: 120px;
+    padding-bottom: 88px;
+  }
+
+  .avatar {
+    display: block;
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    border: 3px solid var(--surface);
+    box-shadow: 0 0 0 3px var(--blue);
+    object-fit: cover;
+    margin-bottom: 28px;
+  }
+
+  .hero .eyebrow {
+    display: inline-block;
+    font-family: 'Geist Mono', monospace;
+    font-size: 0.78rem;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--blue);
+    background: var(--lime-bg);
+    padding: 6px 14px;
+    border-radius: 999px;
+    margin-bottom: 24px;
+  }
+
+  .hero h1 {
+    margin-bottom: 22px;
+  }
+
+  .hero .subhead {
+    font-size: 1.12rem;
+    color: var(--text-dim);
+    max-width: 620px;
+    margin-bottom: 40px;
+  }
+
+  .hero .subhead strong {
+    color: var(--text);
+    font-weight: 600;
+  }
+
+  .btn-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    align-items: center;
+  }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 13px 24px;
+    border-radius: 3rem;
+    font-size: 0.95rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: transform 0.15s ease, background 0.15s ease, border-color 0.15s ease;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    font-family: 'Instrument Sans', sans-serif;
+  }
+
+  .btn-primary {
+    background: var(--blue);
+    color: #ffffff;
+  }
+  .btn-primary:hover {
+    background: var(--blue-bright);
+    transform: translateY(-1px);
+  }
+
+  .btn-secondary {
+    background: transparent;
+    color: var(--blue);
+    border-color: var(--border);
+  }
+  .btn-secondary:hover {
+    border-color: var(--blue);
+    transform: translateY(-1px);
+  }
+
+  .link-quiet {
+    font-size: 0.9rem;
+    color: var(--text-dim);
+    text-decoration: underline;
+    text-decoration-color: var(--border);
+    text-underline-offset: 3px;
+  }
+  .link-quiet:hover {
+    color: var(--blue);
+    text-decoration-color: var(--blue);
+  }
+
+  hr.rule {
+    border: none;
+    border-top: 1px solid var(--border);
+    max-width: var(--maxw);
+    margin: 0 auto;
+  }
+
+  /* OWN CARDS */
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    padding: 28px;
+  }
+
+  .card .tag {
+    font-family: 'Geist Mono', monospace;
+    font-size: 0.7rem;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--lime);
+    display: block;
+    margin-bottom: 12px;
+  }
+
+  .card h3 {
+    margin-bottom: 10px;
+  }
+
+  .card p {
+    font-size: 0.97rem;
+  }
+
+  /* PROOF POINTS */
+  .proof-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 20px;
+  }
+
+  .proof-list li {
+    display: flex;
+    gap: 16px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--border);
+    font-size: 0.97rem;
+    color: var(--text-dim);
+  }
+
+  .proof-list li:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  .proof-list .marker {
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: var(--blue);
+    color: #fff;
+    font-size: 0.72rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2px;
+    font-family: 'Geist Mono', monospace;
+  }
+
+  .proof-list strong {
+    color: var(--text);
+    font-weight: 600;
+  }
+
+  /* WHY COUNSEL */
+  .why p {
+    font-size: 1.1rem;
+    color: var(--text-dim);
+  }
+
+  .why-mark {
+    font-family: 'Fraunces', serif;
+    color: var(--lime);
+    font-size: 2.4rem;
+    line-height: 1;
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+  }
+
+  /* CTA */
+  .cta {
+    text-align: center;
+    padding-bottom: 120px;
+  }
+
+  .cta h2 {
+    margin-bottom: 12px;
+  }
+
+  .cta .body {
+    color: var(--text-dim);
+    font-size: 1.05rem;
+    margin-bottom: 36px;
+  }
+
+  .cta .btn-row {
+    justify-content: center;
+  }
+
+  .cta .resume-link {
+    display: block;
+    margin-top: 24px;
+  }
+
+  footer {
+    max-width: var(--maxw);
+    margin: 0 auto;
+    padding: 32px 24px 64px;
+    text-align: center;
+    font-size: 0.82rem;
+    color: var(--text-dimmer);
+  }
+
+  footer a {
+    color: var(--text-dimmer);
+    text-decoration: none;
+    border-bottom: 1px solid var(--border);
+  }
+  footer a:hover {
+    color: var(--blue);
+    border-color: var(--blue);
+  }
+
+  /* SCROLL REVEAL */
+  .reveal {
+    opacity: 0;
+    transform: translateY(16px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+  }
+  .reveal.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  @media (min-width: 640px) {
+    .cards { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  @media (max-width: 480px) {
+    section { padding: 64px 20px; }
+    .hero { padding-top: 88px; }
+    .btn { width: 100%; justify-content: center; }
+    .btn-row { flex-direction: column; align-items: stretch; }
+  }
+</style>
+</head>
+<body>
+
+  <section class="hero reveal">
+    <img class="avatar" src="/img/kg.png" alt="Kyle Graycar" width="96" height="96">
+    <span class="eyebrow">Growth Marketing Manager at Counsel</span>
+    <h1>Here's how I'd build growth at Counsel.</h1>
+    <p class="subhead"><strong>Kyle Graycar</strong>, growth and lifecycle marketing lead. Nearly a decade building consumer marketing systems from scratch, with an AI-native operating style. I don't use AI as a utility, I design workflows around it: programmatic messaging, automated content pipelines, and internal tooling built with Claude Code and Cursor.</p>
+    <div class="btn-row">
+      <a class="btn btn-primary" href="mailto:kgraycar@gmail.com">kgraycar@gmail.com</a>
+      <a class="btn btn-secondary" href="https://www.linkedin.com/in/kgraycar/" target="_blank" rel="noopener">linkedin.com/in/kgraycar</a>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <section class="own reveal">
+    <h2>What I'd own</h2>
+    <div class="cards">
+      <div class="card">
+        <span class="tag">Content &amp; Creative</span>
+        <h3>Repeatable content systems, not one-off campaigns</h3>
+        <p>I built AI-powered content pipelines at Brilliant.org that scaled email, push, and in-app copy production without adding headcount. I'd bring that same briefing-to-publish workflow to Counsel's blog, social, and email.</p>
+      </div>
+      <div class="card">
+        <span class="tag">Paid Media</span>
+        <h3>Campaign infrastructure that scales with spend</h3>
+        <p>At Electrum I managed a $20K/week paid social and search budget with direct revenue accountability, and built the testing frameworks and attribution behind it. I'd build the infrastructure Counsel needs as spend grows.</p>
+      </div>
+      <div class="card">
+        <span class="tag">Lifecycle Marketing</span>
+        <h3>Lifecycle infrastructure from the ground up</h3>
+        <p>I built Brilliant's lifecycle program in Braze from scratch: segmentation, behavioral triggers, sequencing, and QA, run solo across 30M+ monthly touchpoints. I'd do the same for Counsel's email and push programs.</p>
+      </div>
+      <div class="card">
+        <span class="tag">Reporting &amp; Analytics</span>
+        <h3>Data that turns into action, not just dashboards</h3>
+        <p>I've built the funnel and channel reporting for every company I've worked with, and I don't wait to be asked before acting on what it shows. Counsel needs someone who closes that loop.</p>
+      </div>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <section class="fit reveal">
+    <h2>Why this fits my background</h2>
+    <ul class="proof-list">
+      <li>
+        <span class="marker">1</span>
+        <span>Built lifecycle programs for <strong>30M+ monthly touchpoints</strong> at Brilliant.org, solo operator, no team, using Braze and AI-powered automation.</span>
+      </li>
+      <li>
+        <span class="marker">2</span>
+        <span>Managed a <strong>$20K/week paid social and search budget</strong> at Electrum, scaling a B2B2C marketplace from $1M to $2M ARR.</span>
+      </li>
+      <li>
+        <span class="marker">3</span>
+        <span>AI-native by design: I build workflows around <strong>Claude Code and Cursor</strong> (programmatic messaging, automated segmentation, internal tooling) that extend what one operator can own.</span>
+      </li>
+      <li>
+        <span class="marker">4</span>
+        <span>Founder experience in a <strong>consumer health-adjacent product</strong> (Decarbon), so I understand the sensitivities of health marketing alongside the growth mechanics.</span>
+      </li>
+    </ul>
+  </section>
+
+  <hr class="rule">
+
+  <section class="why reveal">
+    <h2>Why Counsel specifically</h2>
+    <span class="why-mark">&ldquo;</span>
+    <p>Counsel's whole model rests on an idea I've already built my career around: a single skilled operator, extended by AI, can own far more than headcount alone. That's not a talking point for me, it's how I've run marketing at Brilliant.org, at Electrum, and at my own company. I also read "simplicity over complexity" and "do fewer things, well" as real operating values, not slogans, and that's the kind of team I want to build growth for.</p>
+  </section>
+
+  <section class="cta reveal">
+    <h2>Let's talk.</h2>
+    <p class="body">I'm ready to move fast.</p>
+    <div class="btn-row">
+      <a class="btn btn-primary" href="mailto:kgraycar@gmail.com">kgraycar@gmail.com</a>
+      <a class="btn btn-secondary" href="https://www.linkedin.com/in/kgraycar/" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+    <a class="link-quiet resume-link" href="/files/kyle-graycar-resume-counsel.pdf" target="_blank" rel="noopener">View full resume (PDF) →</a>
+  </section>
+
+  <footer>
+    <a href="/">graycar.consulting</a>
+  </footer>
+
+  <script>
+    var revealEls = document.querySelectorAll('.reveal');
+    if ('IntersectionObserver' in window) {
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-visible');
+            io.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.12 });
+      revealEls.forEach(function (el) { io.observe(el); });
+    } else {
+      revealEls.forEach(function (el) { el.classList.add('is-visible'); });
+    }
+  </script>
+
+</body>
+</html>
+{% endraw %}
