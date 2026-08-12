@@ -1,0 +1,459 @@
+---
+permalink: /phantom/
+layout: null
+---
+{% raw %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Kyle Graycar → Phantom</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #fffdf8;
+    --surface: #ffffff;
+    --border: #e8e6e2;
+    --text: #1c1c1c;
+    --text-dim: #6e6e6e;
+    --text-dimmer: #a4a3a0;
+    --purple: #ab9ff2;
+    --purple-deep: #3c315b;
+    --lavender-bg: #e2dffe;
+    --maxw: 780px;
+  }
+
+  * { box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  section {
+    max-width: var(--maxw);
+    margin: 0 auto;
+    padding: 96px 24px;
+  }
+
+  h1, h2, h3 {
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin: 0;
+    color: var(--purple-deep);
+  }
+
+  h1 {
+    font-size: clamp(2.2rem, 5vw, 3.3rem);
+    line-height: 1.15;
+  }
+
+  h2 {
+    font-size: clamp(1.6rem, 3.5vw, 2.1rem);
+    margin-bottom: 40px;
+  }
+
+  h3 {
+    font-size: 1.15rem;
+    font-weight: 700;
+  }
+
+  p {
+    color: var(--text-dim);
+    margin: 0;
+  }
+
+  a { color: inherit; }
+
+  /* HERO */
+  .hero {
+    padding-top: 120px;
+    padding-bottom: 88px;
+  }
+
+  .avatar {
+    display: block;
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    border: 3px solid var(--surface);
+    box-shadow: 0 0 0 3px var(--purple);
+    object-fit: cover;
+    margin-bottom: 28px;
+  }
+
+  .phantom-logo {
+    display: inline-block;
+    width: auto;
+    height: 0.62em;
+    color: var(--purple);
+    vertical-align: middle;
+    margin-left: 0.28em;
+    margin-top: -0.1em;
+  }
+
+  .hero .eyebrow {
+    display: inline-block;
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--purple-deep);
+    background: var(--lavender-bg);
+    padding: 6px 14px;
+    border-radius: 999px;
+    margin-bottom: 24px;
+  }
+
+  .hero h1 {
+    margin-bottom: 22px;
+  }
+
+  .hero .subhead {
+    font-size: 1.12rem;
+    color: var(--text-dim);
+    max-width: 620px;
+    margin-bottom: 40px;
+  }
+
+  .hero .subhead strong {
+    color: var(--text);
+    font-weight: 600;
+  }
+
+  .btn-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    align-items: center;
+  }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 13px 24px;
+    border-radius: 999px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: transform 0.15s ease, background 0.15s ease, border-color 0.15s ease;
+    border: 1px solid transparent;
+    white-space: nowrap;
+  }
+
+  .btn-primary {
+    background: var(--text);
+    color: #ffffff;
+  }
+  .btn-primary:hover {
+    background: var(--purple-deep);
+    transform: translateY(-1px);
+  }
+
+  .btn-secondary {
+    background: transparent;
+    color: var(--text);
+    border-color: var(--border);
+  }
+  .btn-secondary:hover {
+    border-color: var(--purple);
+    transform: translateY(-1px);
+  }
+
+  .link-quiet {
+    font-size: 0.9rem;
+    color: var(--text-dim);
+    text-decoration: underline;
+    text-decoration-color: var(--border);
+    text-underline-offset: 3px;
+  }
+  .link-quiet:hover {
+    color: var(--purple-deep);
+    text-decoration-color: var(--purple);
+  }
+
+  hr.rule {
+    border: none;
+    border-top: 1px solid var(--border);
+    max-width: var(--maxw);
+    margin: 0 auto;
+  }
+
+  /* OWN CARDS */
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 28px;
+  }
+
+  .card .tag {
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--purple-deep);
+    background: var(--lavender-bg);
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 999px;
+    margin-bottom: 14px;
+  }
+
+  .card h3 {
+    margin-bottom: 10px;
+  }
+
+  .card p {
+    font-size: 0.97rem;
+  }
+
+  /* PROOF POINTS */
+  .proof-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 20px;
+  }
+
+  .proof-list li {
+    display: flex;
+    gap: 16px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--border);
+    font-size: 0.97rem;
+    color: var(--text-dim);
+  }
+
+  .proof-list li:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  .proof-list .marker {
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: var(--purple);
+    color: var(--purple-deep);
+    font-size: 0.72rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2px;
+  }
+
+  .proof-list strong {
+    color: var(--text);
+    font-weight: 600;
+  }
+
+  /* WHY PHANTOM */
+  .why p {
+    font-size: 1.1rem;
+    color: var(--text-dim);
+  }
+
+  .why-mark {
+    color: var(--purple);
+    font-size: 2.6rem;
+    line-height: 1;
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 800;
+  }
+
+  /* CTA */
+  .cta {
+    text-align: center;
+    padding-bottom: 120px;
+  }
+
+  .cta h2 {
+    margin-bottom: 12px;
+  }
+
+  .cta .body {
+    color: var(--text-dim);
+    font-size: 1.05rem;
+    margin-bottom: 36px;
+  }
+
+  .cta .btn-row {
+    justify-content: center;
+  }
+
+  .cta .resume-link {
+    display: block;
+    margin-top: 24px;
+  }
+
+  footer {
+    max-width: var(--maxw);
+    margin: 0 auto;
+    padding: 32px 24px 64px;
+    text-align: center;
+    font-size: 0.82rem;
+    color: var(--text-dimmer);
+  }
+
+  footer a {
+    color: var(--text-dimmer);
+    text-decoration: none;
+    border-bottom: 1px solid var(--border);
+  }
+  footer a:hover {
+    color: var(--purple-deep);
+    border-color: var(--purple);
+  }
+
+  /* SCROLL REVEAL */
+  .reveal {
+    opacity: 0;
+    transform: translateY(16px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+  }
+  .reveal.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  @media (min-width: 640px) {
+    .cards { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  @media (max-width: 480px) {
+    section { padding: 64px 20px; }
+    .hero { padding-top: 88px; }
+    .btn { width: 100%; justify-content: center; }
+    .btn-row { flex-direction: column; align-items: stretch; }
+  }
+</style>
+</head>
+<body>
+
+  <section class="hero reveal">
+    <img class="avatar" src="/img/kg.png" alt="Kyle Graycar" width="96" height="96">
+    <span class="eyebrow">Growth Marketing Manager (Lifecycle) at Phantom</span>
+    <h1>Here's how I'd build lifecycle for Phantom.<svg class="phantom-logo" viewBox="0 0 108 93" fill="none" aria-hidden="true"><title>Phantom</title><path d="M0.5 78.1789C0.5 90.2265 6.7065 93 13.1613 93C26.8155 93 37.077 80.6058 43.2007 70.8118C42.4559 72.9786 42.0422 75.1454 42.0422 77.2255C42.0422 82.946 45.1868 87.0196 51.3933 87.0196C59.9169 87.0196 69.0197 79.219 73.7367 70.8118C73.4056 72.0252 73.2401 73.1519 73.2401 74.192C73.2401 78.1789 75.3917 80.6924 79.7777 80.6924C93.5975 80.6924 107.5 55.124 107.5 32.7623C107.5 15.3411 99.0592 0 77.8743 0C40.6354 0 0.5 47.4967 0.5 78.1789ZM65.0476 30.8555C65.0476 26.5219 67.3647 23.4884 70.7575 23.4884C74.0677 23.4884 76.3848 26.5219 76.3848 30.8555C76.3848 35.1892 74.0677 38.3094 70.7575 38.3094C67.3647 38.3094 65.0476 35.1892 65.0476 30.8555ZM82.7568 30.8555C82.7568 26.5219 85.0739 23.4884 88.4668 23.4884C91.7769 23.4884 94.094 26.5219 94.094 30.8555C94.094 35.1892 91.7769 38.3094 88.4668 38.3094C85.0739 38.3094 82.7568 35.1892 82.7568 30.8555Z" fill="currentColor"></path></svg></h1>
+    <p class="subhead"><strong>Kyle Graycar</strong>, lifecycle and growth marketing leader. Nearly a decade building retention and engagement programs from scratch at consumer fintech and subscription platforms. Deep Braze practitioner, and a fintech-native operator who understands financial behavior and habit formation firsthand.</p>
+    <div class="btn-row">
+      <a class="btn btn-primary" href="mailto:kgraycar@gmail.com">kgraycar@gmail.com</a>
+      <a class="btn btn-secondary" href="https://www.linkedin.com/in/kgraycar/" target="_blank" rel="noopener">linkedin.com/in/kgraycar</a>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <section class="own reveal">
+    <h2>What I'd own</h2>
+    <div class="cards">
+      <div class="card">
+        <span class="tag">Retention Strategy</span>
+        <h3>Own the trading lifecycle roadmap end to end</h3>
+        <p>At Brilliant.org I was the founding lifecycle hire: I set the strategy, prioritized the roadmap, and reported results straight to leadership with no playbook to inherit. I'd bring that same ownership to Phantom's predictions, spot trading, and perpetual futures lifecycle.</p>
+      </div>
+      <div class="card">
+        <span class="tag">CRM &amp; Automation</span>
+        <h3>Complex Braze builds, not just templates</h3>
+        <p>I've built CRM campaigns and automations in Braze (Canvases, Liquid, Connected Content) across push, email, and in-app for 23M+ users. I'd build that same infrastructure for Phantom's trading engagement.</p>
+      </div>
+      <div class="card">
+        <span class="tag">Experimentation</span>
+        <h3>A roadmap built with data, not guesswork</h3>
+        <p>I've run the lifecycle experimentation roadmap in partnership with Data and Product: proper holdout groups, incrementality measurement, and scaling what wins. That's how I helped drive a 5x DAU increase and 30%+ revenue growth at Brilliant.org.</p>
+      </div>
+      <div class="card">
+        <span class="tag">Cross-Functional GTM</span>
+        <h3>Branded moments, not just broadcast sends</h3>
+        <p>I've partnered with product, data, and design teams to turn lifecycle into real go-to-market moments, not just scheduled blasts. I'd bring that same partnership to Phantom's Brand Design and Product Marketing teams.</p>
+      </div>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <section class="fit reveal">
+    <h2>Why this fits my background</h2>
+    <ul class="proof-list">
+      <li>
+        <span class="marker">1</span>
+        <span><strong>Founding lifecycle hire</strong> at Brilliant.org: owned retention and engagement strategy end to end across 23M+ users and 30M+ monthly touchpoints in Braze, with no playbook to inherit.</span>
+      </li>
+      <li>
+        <span class="marker">2</span>
+        <span><strong>Fintech-native operator:</strong> founded Decarbon integrating Plaid and Stripe, and I'm a Boglehead investor and daily Monarch subscriber who understands financial behavior and habit formation firsthand.</span>
+      </li>
+      <li>
+        <span class="marker">3</span>
+        <span><strong>Reforge Experimentation Certified:</strong> I design holdout groups, measure incrementality, and scale winning lifecycle programs, contributing to a 5x DAU increase and 30%+ annual revenue growth.</span>
+      </li>
+      <li>
+        <span class="marker">4</span>
+        <span><strong>Deep Braze practitioner</strong> across two roles: Canvases, Liquid, and behavioral segmentation for ~10M profiles at Magoosh and 23M+ users at Brilliant.org.</span>
+      </li>
+    </ul>
+  </section>
+
+  <hr class="rule">
+
+  <section class="why reveal">
+    <h2>Why Phantom specifically</h2>
+    <span class="why-mark">&ldquo;</span>
+    <p>Phantom is a money app used by 20M+ people, and the trading lifecycle you're building across predictions, spot, and perpetuals is exactly the kind of high-stakes engagement problem I want to work on. I'm not just a lifecycle marketer who happens to work in fintech, I'm a fintech-native operator: I built a Plaid and Stripe-integrated financial app myself, I track my own portfolio as a Boglehead investor, and I use Monarch every day. That firsthand understanding of financial behavior is exactly what a founding lifecycle hire for trading products needs.</p>
+  </section>
+
+  <section class="cta reveal">
+    <h2>Let's talk.</h2>
+    <p class="body">I'm ready to move fast.</p>
+    <div class="btn-row">
+      <a class="btn btn-primary" href="mailto:kgraycar@gmail.com">kgraycar@gmail.com</a>
+      <a class="btn btn-secondary" href="https://www.linkedin.com/in/kgraycar/" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+    <a class="link-quiet resume-link" href="/files/kyle-graycar-resume-phantom.pdf" target="_blank" rel="noopener">View full resume (PDF) →</a>
+  </section>
+
+  <footer>
+    <a href="/">graycar.consulting</a>
+  </footer>
+
+  <script>
+    var revealEls = document.querySelectorAll('.reveal');
+    if ('IntersectionObserver' in window) {
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-visible');
+            io.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.12 });
+      revealEls.forEach(function (el) { io.observe(el); });
+    } else {
+      revealEls.forEach(function (el) { el.classList.add('is-visible'); });
+    }
+  </script>
+
+</body>
+</html>
+{% endraw %}
